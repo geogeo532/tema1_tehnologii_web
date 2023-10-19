@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+    <title>Fotbal</title>
+    <style>
+
+      header{
+        margin: 0;
+        padding: 0;
+        background-color:rgb(105, 187, 191);
+        overflow: hidden;
+			  width:105%;
+			  height:34%; 
+      }
+
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(93, 158, 136);
+			  overflow: hidden;
+			  width:106%;
+			  height:65%;
+
+      }
+
+      .link{
+        text-decoration:none;
+        font-size:25px;
+        color:black;
+      }
+
+      .titlu{
+        text-decoration:none;
+        font-size:55px;
+        color:black;
+      } 
+
+      nav {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			background-color: rgb(105, 187, 191);
+			
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding: 24px 258px;
+		    text-decoration: none;
+			  font-size:25px
+		}
+
+		li a:hover {
+			background-color: rgb(39, 44, 71);
+		}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <marquee direction="right" class="titlu" scrollamount="15">Bine ați venit! </marquee>
+      <nav>
+              <li><a href="iframe.html" class="link" target="iframe1">Generalități</a></li>
+              <li><a href="istorie.html" class="link" target="iframe1">Istorie</a></li>
+              <li><a href="reguli.html" class="link" target="iframe1">Reguli</a></li>
+              <li><a href="personalități_remarcabile.html" class="link" target="iframe1">Personalități remarcabile</a></li>
+      </nav>
+      <iframe src="iframe.html" style="height:1171px;width:2560px;" name="iframe1" frameborder="0"></iframe>
+  </header>
+  </body>
+</html>
